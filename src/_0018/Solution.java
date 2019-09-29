@@ -1,4 +1,4 @@
-package array._0018;
+package _0018;
 
 import java.util.ArrayList;
 import java.util.Arrays;

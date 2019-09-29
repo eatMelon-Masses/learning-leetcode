@@ -1,4 +1,4 @@
-package array._0238;
+package _0238;
 
 import java.util.Arrays;
 
