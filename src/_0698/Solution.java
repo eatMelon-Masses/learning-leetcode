@@ -1,5 +1,8 @@
-package dp._0698;
+package _0698;
 
+/**
+ * dp
+ */
 class Solution {
     private boolean backtracking(int[] nums, int k, int target, int cur, int start, boolean[] used) {
         // 返回条件
