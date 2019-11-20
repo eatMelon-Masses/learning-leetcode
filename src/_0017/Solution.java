@@ -18,10 +18,10 @@ public class Solution {
 
     }
 
-    public void dg(String d, int start, Set<String> set, StringBuilder sb) {
+    public void dg(String d, int start, Set<String> set,StringBuilder sb) {
         if (d.length() == start) {
             if (!sb.toString().isEmpty())
-                set.add(sb.toString());
+            set.add(sb.toString());
             return;
         }
         int boardNum = d.charAt(start) - '2';
@@ -38,6 +38,6 @@ public class Solution {
     }
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.letterCombinations("23"));
+        System.out.println(solution.letterCombinations(""));
     }
 }
