@@ -48,71 +48,143 @@
 |102|[二叉树的层次遍历](_0102/Solution.java)|-|
 |104|[二叉树的最大深度](_0104/Solution.java)|-|
 |105|[从前序与中序遍历序列构造二叉树](_0105/Solution.java)|-|
-||[](_0106/Solution.java)|-|
-||[](_0108/Solution.java)|-|
-||[](_0110/Solution.java)|-|
-||[](_0112/Solution.java)|-|
-||[](_0116/Solution.java)|-|
-||[](_0117/Solution.java)|-|
+||[从中序与后序遍历序列构造二叉树](_0106/Solution.java)|-|
+||[将有序数组转换为二叉搜索树](_0108/Solution.java)|-|
+||[平衡二叉树](_0110/Solution.java)|-|
+||[路径总和](_0112/Solution.java)|-|
+||[填充每个节点的下一个右侧节点指针](_0116/Solution.java)|-|
+||[填充每个节点的下一个右侧节点指针 II](_0117/Solution.java)|-|
 |118|[杨辉三角](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/array/PascalTriangle.java)|简单|
 |119|[杨辉三角 II](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/array/PascalTriangleII.java)|简单|
-||[](_0120/Solution.java)|-|
+||[三角形最小路径和](_0120/Solution.java)|-|
 |121|[买卖股票的最佳时机](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/dp/BestTimeToBuyAndSellStock.java)|简单|
-||[](_0122/Solution.java)|-|
-||[](_0133/Solution.java)|-|
+||[买卖股票的最佳时机 II](_0122/Solution.java)|-|
+||[克隆图](_0133/Solution.java)|-|
 |134|[加油站](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/greedy/GasStation.java)|中等|
-||[](_0136/Solution.java)|-|
-||[](_0137/Solution.java)|-|
+||[只出现一次的数字](_0136/Solution.java)|-|
+||[只出现一次的数字 II](_0137/Solution.java)|-|
 ||[](_0139/Solution.java)|-|
 ||[](_0146/Solution.java)|-|
 ||[](_0152/Solution.java)|-|
-||[](_0153/Solution.java)|-|
-||[](_0154/Solution.java)|-|
-||[](_0162/Solution.java)|-|
-||[](_0167/Solution.java)|-|
+||[寻找旋转排序数组中的最小值](_0153/Solution.java)|-|
+||[寻找旋转排序数组中的最小值 II](_0154/Solution.java)|-|
+||[寻找峰值](_0162/Solution.java)|-|
+||[两数之和 II - 输入有序数组](_0167/Solution.java)|-|
 |169|[求众数](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/array/MajorityElement.java)|简单|
-||[](_0173/Solution.java)|-|
-||[](_0189/Solution.java)|-|
-||[](_0191/Solution.java)|-|
-||[](_0198/Solution.java)|-|
-||[](_0200/Solution.java)|-|
+||[二叉搜索树迭代器](_0173/Solution.java)|-|
+||[旋转数组](_0189/Solution.java)|-|
+||[位1的个数](_0191/Solution.java)|-|
+||[打家劫舍](_0198/Solution.java)|-|
+||[岛屿数量](_0200/Solution.java)|-|
 |202|[快乐数](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/math/HappyNumber.java)|简单|
 |	209	 |[长度最小的数组](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/dp/minSubArrayLen.java)|	中等|
 ||[](_0213/Solution.java)|-|
-||[](_0215/Solution.java)|-|
-||[](_0216/Solution.java)|-|
-||[](_0217/Solution.java)|-|
-||[](_0219/Solution.java)|-|
+||[数组中的第K个最大元素](_0215/Solution.java)|-|
+||[组合总和 III](_0216/Solution.java)|-|
+||[存在重复元素](_0217/Solution.java)|-|
+||[存在重复元素 II](_0219/Solution.java)|-|
 ||[](_0221/Solution.java)|-|
-||[](_0225/Solution.java)|-|
-||[](_0231/Solution.java)|-|
-||[](_0232/Solution.java)|-|
+||[用队列实现栈](_0225/Solution.java)|-|
+||[2的幂](_0231/Solution.java)|-|
+||[用栈实现队列](_0232/Solution.java)|-|
 ||[](_0238/Solution.java)|-|
-||[](_0241/Solution.java)|-|
-||[](_0257/Solution.java)|-|
-||[](_0260/Solution.java)|-|
+||[为运算表达式设计优先级](_0241/Solution.java)|-|
+||[二叉树的所有路径](_0257/Solution.java)|-|
+||[只出现一次的数字 III](_0260/Solution.java)|-|
 ||[](_0264/Solution.java)|-|
-||[](_0268/Solution.java)|-|
-||[](_0278/Solution.java)|-|
-||[](_0279/Solution.java)|-|
-||[](_0283/Solution.java)|-|
-||[](_0284/Solution.java)|-|
+||[ 缺失数字](_0268/Solution.java)|-|
+||[第一个错误的版本](_0278/Solution.java)|-|
+||[完全平方数](_0279/Solution.java)|-|
+||[移动零](_0283/Solution.java)|-|
+||[ 顶端迭代器](_0284/Solution.java)|-|
 |287|[寻找重复数](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/array/FindAllDuplicatesinAnArray.java)|中等|
-||[](_0292/Solution.java)|-|
+||[Nim 游戏](_0292/Solution.java)|-|
 ||[](_0300/Solution.java)|-|
-||[](_0303/Solution.java)|-|
-||[](_0309/Solution.java)|-|
+||[区域和检索 - 数组不可变](_0303/Solution.java)|-|
+||[最佳买卖股票时机含冷冻期](_0309/Solution.java)|-|
 ||[](_0322/Solution.java)|-|
-||[](_0338/Solution.java)|-|
-||[](_0342/Solution.java)|-|
-||[](_0343/Solution.java)|-|
-||[](_0349/Solution.java)|-|
-|392|[判断子序列](https://leetcode-cn.com/problems/is-subsequence/)|中等|
+||[比特位计数](_0338/Solution.java)|-|
+||[4的幂](_0342/Solution.java)|-|
+||[整数拆分](_0343/Solution.java)|-|
 |435|[无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/)|中等|
+||[两个数组的交集](_0349/Solution.java)|-|
+||[两个数组的交集 II](_0350/Solution.java)|-|
+||[](_0351/Solution.java)|-|
+||[](_0357/Solution.java)|-|
+||[有效的完全平方数](_0367/Solution.java)|-|
+||[求最长升序子序列](_0368/Solution.java)|-|
+||[两整数之和](_0371/Solution.java)|-|
+||[猜数字大小](_0374/Solution.java)|-|
+||[常数时间插入、删除和获取随机元素](_0380/Solution.java)|-|
+||[找不同](_0389/Solution.java)|-|
+|392|[判断子序列](https://leetcode-cn.com/problems/is-subsequence/)|中等|
+||[字符串解码](_0394/Solution.java)|-|
+||[等差数列划分](_0413/Solution.java)|-|
+
+||[第三大的数](_0414/Solution.java)|-|
 |442|[数组中重复的数据](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/array/FindAllDuplicatesinAnArray.java)|中等|
+||[找到所有数组中消失的数字](_0448/Solution.java)|-|
+||[四数相加 II](_0454/Solution.java)|-|
+||[汉明距离](_0461/Solution.java)|-|
+||[](_0464/Solution.java)|-|
+||[供暖器](_0475/Solution.java)|-|
+||[最大连续1的个数](_0485/Solution.java)|-|
+||[预测赢家](_0486/Solution.java)|-|
+
+
 |	494	 |[目标和](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/dp/TargetSum.java)|中等|
+||[](_0516/Solution.java)|-|
+||[](_0521/Solution.java)|-|
 |541|[反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/)|中等|
 |557|[反转字符串中的单词 III](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/f310f456020829687e85ece5f5fde74543b16af7/src/main/java/org/awesome/leetcode/algorithm/string/ReverseWords3.java)|简单|
+||[数组拆分 I](_0561/Solution.java)|-|
+||[种花问题](_0605/Solution.java)|-|
+||[三个数的最大乘积](_0628/Solution.java)|-|
+||[大礼包](_0638/Solution.java)|-|
+||[子数组最大平均数 I](_0643/Solution.java)|-|
+||[最长数对链](_0646/Solution.java)|-|
+||[回文子串](_0647/Solution.java)|-|
+||[](_0650/Solution.java)|-|
+||[找到 K 个最接近的元素](_0658/Solution.java)|-|
+||[非递减数列](_0665/Solution.java)|-|
+||[](_0673/Solution.java)|-|
+||[交替位二进制数](_0693/Solution.java)|-|
+||[数组的度](_0697/Solution.java)|-|
+||[](_0698/Solution.java)|-|
+||[两个字符串的最小ASCII删除和](_0712/Solution.java)|-|
+||[买卖股票的最佳时机含手续费](_0714/Solution.java)|-|
+||[1比特与2比特字符](_0717/Solution.java)|-|
+||[最长重复子数组](_0718/Solution.java)|-|
+||[寻找数组的中心索引](_0724/Solution.java)|-|
+||[图像渲染](_0733/Solution.java)|-|
+||[ 删除与获得点数](_0740/Solution.java)|-|
+||[至少是其他数字两倍的最大数](_0747/Solution.java)|-|
+||[打开转盘锁](_0752/Solution.java)|-|
+||[设置交集大小至少为2](_0757/Solution.java)|-|
+||[](_0758/Solution.java)|-|
+||[第K个语法符号](_0779/Solution.java)|-|
+||[](_0801/Solution.java)|-|
+||[子域名访问计数](_0811/Solution.java)|-|
+||[山脉数组的峰顶索引](_0852/Solution.java)|-|
+||[柠檬水找零](_0860/Solution.java)|-|
+||[转置矩阵](_0867/Solution.java)|-|
+||[](_0873/Solution.java)|-|
+||[石子游戏](_0877/Solution.java)|-|
+||[三维形体的表面积](_0892/Solution.java)|-|
+||[按奇偶排序数组](_0905/Solution.java)|-|
+||[按奇偶排序数组 II](_0922/Solution.java)|-|
+||[最近的请求次数](_0933/Solution.java)|-|
+||[二叉搜索树的范围和](_0938/Solution.java)|-| 
+||[有效的山脉数组](_0941/Solution.java)|-|
+||[按递增顺序显示卡牌](_0950/Solution.java)|-|
+||[有序数组的平方](_0977/Solution.java)|-|
+||[](_0991/Solution.java)|-|
+||[](_0993/Solution.java)|-|
+||[](_1013/Solution.java)|-|
+||[](_1021/Solution.java)|-|
+||[](_1071/Solution.java)|-|
+||[](_/Solution.java)|-|
+||[](_/Solution.java)|-|
 |	718	  |[最长重复数组](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/dp/MaximumLengthofRepeatedSubarray.java)|中等|
 |739|[每日温度](https://leetcode-cn.com/problems/daily-temperatures/submissions/)|中等|
 |921|[使括号有效的最少添加](https://leetcode-cn.com/problems/minimum-add-to-make-parentheses-valid/)|中等|
