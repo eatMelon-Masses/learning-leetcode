@@ -12,6 +12,7 @@ public class Solution {
         Boolean[] dp = new Boolean[s.length()];
         return dg(s, new HashSet<String>(wordDict), 0,dp);
     }
+
     public boolean dg(String s,HashSet wd,int start,Boolean[] dp) {
         if (start == s.length()) {
             return true;
