@@ -29,11 +29,16 @@ public class Solution1 {
         return dg(num1,num2,start1,start2,k-k/2);
     }
     public static void main(String[] args) {
-        Solution1 solution = new Solution1();
-        int[] arr1 = {1, 2};
-        int[] arr2 = {1, 2, 3, 4};
+        long startTime = System.currentTimeMillis();
+        for (int i = 0; i < 10000; i++) {
+            Solution1 solution = new Solution1();
+            int[] arr1 = {1, 2};
+            int[] arr2 = {1, 2, 3, 4};
+            System.out.println(solution.findMedianSortedArrays(arr1,arr2));
+        }
+        long endTime = System.currentTimeMillis();
 
+        System.out.println(endTime-startTime);
 
-        System.out.println(solution.findMedianSortedArrays(arr1,arr2));
     }
 }
