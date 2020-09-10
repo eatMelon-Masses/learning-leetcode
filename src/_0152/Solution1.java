@@ -2,32 +2,34 @@ package _0152;
 
 public class Solution1 {
     public int maxProduct(int[] nums) {
-        int max = Integer.MIN_VALUE;
         int len = nums.length;
-        if(len==1) return nums[0];
-        int[][] dp = new int[len][len];
-        for(int k = 0;k<len;k++){
-            if (nums[k]==0) nums[k] = 1;
-            dp[0][k]*=nums[k];
-            if(dp[0][k]>max);
-            max=dp[0][k];
-        }
-        for(int i = 0;i<len-1;i++){
-            for(int j=i+1;j<len;j++){
-                if(dp[i][i]==0){
-                    dp[i+1][j]=0;
-                }else{
-                    dp[i+1][j]=dp[i][j]/dp[i][i];
-                }
-                if(dp[i+1][j]>max) max = dp[i+1][j];
+        if (len==0) return 0;
+        int[] dpMax = new int[len];
+        int[] dpMin = new int[len];
+        int max ;
+        max=dpMax[0] = dpMin[0] = nums[0];
+        for (int i = 1; i < len; i++) {
+            int node = nums[i];
+            if (node>0){
+                dpMax[i] = Math.max(node,dpMax[i-1] * node);
+                dpMin[i] = Math.min(node,dpMin[i-1] * node);
+            }else if(node<0){
+                dpMax[i] = Math.max(node,dpMin[i-1] * node);
+                dpMin[i] = Math.min(node,dpMax[i-1] * node);
+            }else {
+                dpMax[i] = 0;
+                dpMin[i] = 0;
             }
+            max = Math.max(max,dpMax[i]);
+            System.out.println();
         }
+
         return max;
     }
     public static void main(String[] args) {
 
         Solution1 solution = new Solution1();
-        int[] arr = {2, 0, -1};
+        int[] arr = {-2, 0, -1};
         System.out.println(solution.maxProduct(arr));
     }
 }
