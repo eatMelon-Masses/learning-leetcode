@@ -1,5 +1,8 @@
 package _0019;
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 /**
  * dp[i][0] 第j种状态下，长度为i的字符串合规需要变换多少次
  */
@@ -43,5 +46,7 @@ public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
         System.out.println(solution.minimumOperations("ryryryyryyryryryryryr"));
+        ArrayList<Integer> integers = new ArrayList<>();
+
     }
 }
