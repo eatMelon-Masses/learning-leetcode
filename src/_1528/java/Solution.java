@@ -1,4 +1,4 @@
-package _1528;
+package _1528.java;
 
 public class Solution {
     public String restoreString(String s, int[] indices) {
