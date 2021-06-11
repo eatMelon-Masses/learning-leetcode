@@ -90,6 +90,7 @@ public class Solution {
         lists.add(Arrays.asList(0, 2));
         String s = solution.smallestStringWithSwaps(string, lists);
         System.out.println(s);
+        
     }
 
 }
