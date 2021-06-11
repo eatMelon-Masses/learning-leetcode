@@ -91,6 +91,7 @@ public class Solution {
         String s = solution.smallestStringWithSwaps(string, lists);
         System.out.println(s);
         
+
     }
 
 }
